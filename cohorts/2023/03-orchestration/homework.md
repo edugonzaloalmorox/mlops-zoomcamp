@@ -29,7 +29,7 @@ Using the flow in `orchestrate.py`, create a deployment.
 Schedule your deployment to run on the third day of every month at 9am UTC.
 What’s the cron schedule for that?
 
-- `0 9 3 * *`
+- --> `0 9 3 * *` <--
 - `0 0 9 3 *`
 - `9 * 3 0 *`
 - `* * 9 3 0`
