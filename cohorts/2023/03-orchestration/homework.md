@@ -34,6 +34,12 @@ What’s the cron schedule for that?
 - `9 * 3 0 *`
 - `* * 9 3 0`
 
+- The first field 0 represents the minute when the deployment will run. In this case, it's set to 0, which means it will run at the start of the hour.
+- The second field 9 represents the hour when the deployment will run. It's set to 9, indicating 9am.
+- The third field 3 represents the day of the month when the deployment will run. By specifying 3, it will run on the third day of every month.
+- The fourth field * represents the month of the year. By using an asterisk, it allows the deployment to run in any month.
+- The fifth field * represents the day of the week. Using an asterisk means the deployment can run on any day of the week.
+
 
 ## Q3. RMSE 
 
@@ -52,10 +58,15 @@ View the results in the UI.
 What’s the final RMSE to five decimal places?
 
 - 6.67433
-- 5.19931
-- 8.89443
+- --> 5.19931 <-- 
+- 8.89443 
 - 9.12250
 
+To get this info in the UI follow these steps.
+
+- `Flow runs` > Select your flow 
+- `Task runs` > See the list of tasks
+- Select 'train_best_model-0`> This is the task that contains the validation and the calculation of the RMSE
 
 ## Q4. RMSE (Markdown Artifact)
 
