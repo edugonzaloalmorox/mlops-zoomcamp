@@ -1,9 +1,3 @@
-# mlops-zoomcamp
+# MLops project 
 
-Course materials and homework from MLops provided Zoomcamp. Sessions include a couple of files additional to what is considered in the original repo.
-
-+ `notes`: A MD file with notes about issues I find relevant in each module
-+ `homework`: A notebook (or similar) with my homeworks for each sessions 
-
-
-
+This repo contains the materials for the mlops zoomcamp project. The project aims to build a ML tool that enables better searches within the contracts released by the Spanish public institutions. For that it will use Semantic Searches. 
