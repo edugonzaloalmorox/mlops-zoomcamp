@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/986160032592708496/50cbcb8c35d64824a3eb30c22d3962b3/artifacts
+end_time: 1749136251969
+entry_point_name: ''
+experiment_id: '986160032592708496'
+lifecycle_stage: active
+run_id: 50cbcb8c35d64824a3eb30c22d3962b3
+run_name: kindly-shrimp-683
+run_uuid: 50cbcb8c35d64824a3eb30c22d3962b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749136195404
+status: 3
+tags: []
+user_id: personas

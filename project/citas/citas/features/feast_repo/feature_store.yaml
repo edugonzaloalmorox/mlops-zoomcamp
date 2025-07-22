@@ -1,0 +1,9 @@
+project: citas            
+registry: data/registry.db        # Where Feast stores metadata
+provider: local                   # Local setup (for prototyping)
+
+online_store:                    # Optional: for real-time serving
+  path: data/online_store.db     # SQLite file for online features
+
+offline_store:
+  type: file                     # You’re using Parquet from DuckDB

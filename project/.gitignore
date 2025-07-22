@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment (if inside repo)
+.venv/
+.env/
+
+# Poetry lock file (optional to ignore if reproducibility isn't required)
+# poetry.lock
+
+# Data files
+data/tmp/
+db/*.duckdb
+*.db
+
+# Models and outputs
+*.pkl
+*.joblib
+*.h5
+*.onnx
+models/
+metrics.json
+
+# VSCode or PyCharm settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

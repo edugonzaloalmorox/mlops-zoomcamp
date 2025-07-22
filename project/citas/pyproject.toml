@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "citas"
+version = "0.1.0"
+description = "ML System"
+authors = ["edugonzaloalmorox <eduardogonzaloalmorox@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+duckdb = "^1.2.2"
+plotly-express = "^0.4.1"
+nbformat = "^5.10.4"
+scikit-learn = "^1.6.1"
+xgboost = "^3.0.1"
+category-encoders = "^2.8.1"
+pyarrow = "^17.0.0"
+numpy = "^1.24"
+feast = "^0.49.0"
+mlflow = "^2.22.0"
+hyperopt = "^0.2.7"
+fastapi = "^0.115.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
